@@ -14,6 +14,7 @@ const stableFaviconFiles = new Set([
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   build: {
     rollupOptions: {
       output: {
